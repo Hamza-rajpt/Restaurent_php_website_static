@@ -1,0 +1,599 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap');
+/*--------------------------------
+	MARGIN/PADDING CLASSES CSS OF 
+	ROW OR COLUMN
+ --------------------------------*/
+.ml-0{
+	margin-left: 0px;
+}
+.mr-0{
+	margin-right: 0px;
+}
+.pl-0{
+	padding-left: 0px;
+}
+.pr-0{
+	padding-right: 0px;
+}
+/*-----------------------------
+	END MARGIN PADDING CSS
+------------------------------*/
+
+body ::selection{
+        color: white;
+        background:black;
+}
+.errors{
+    margin-top: 5px;
+    color: red;
+    font-size: 14px;
+    padding: 15px 0px 0px 0px;
+    font-weight: bold;
+}
+/*-----------------------------
+	LOGIN PAGE CSS
+------------------------------*/
+.login_back{
+	background-image: url(../images/ftr2.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+.login_box{
+	margin: 50% 0%;
+    padding: 0 20px;
+	background-color: #00000055;
+}
+.login_box h1{
+	text-align: center;
+	color: white;
+    font-family: initial;
+	font-size: 40px;
+	padding: 15px 0px;
+	margin-bottom: 40px;	
+}
+.text_box{
+	    width: 100%;
+	    border-bottom: 2px solid red;
+	    color: white;
+}
+.text_box input{
+		width: 100%;
+	    padding: 10px 10px;
+	    font-size: 18px;
+	    background: none;
+	    border: none;
+	    outline: none;
+}
+.login_box button{
+	width: 100%;
+    margin: 30px 0;
+    padding: 8px 0px;
+    background: none;
+    border: 3px solid  red;
+    color: white;
+    outline: none;
+    border-radius: 10px;
+}
+.login_box button:hover{
+	color: white;
+	background-color: #99000050;
+	transition: 0.3s;
+}
+
+/*-----------------------------
+	END LOGIN PAGE CSS
+------------------------------*/
+
+/*---------------------------------
+	USER HOME /header/ PAGE CSS
+----------------====--------------*/
+.site_logo{
+	 background-color: red;
+     text-align: center;
+     border-right: 1px solid #fff;
+}
+.site_logo a{
+	text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+        font-family: 'FontAwesome';
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+}
+.site_header{
+	background-color: red;
+    width: 100%;
+    display: inline-block;
+}
+.site_header img{
+	width: 37px;
+    margin: 0px 10px;
+    border-radius: 50%;
+    height: 37px;
+}
+.site_header ul li{
+    text-align: right;
+}
+.site_header i{
+	font-size: 17px;
+    color: white;
+    padding: 15px 10px;
+}
+.dropdown-menu{
+    background-color: #00000050 !important;
+    margin: 10px 0px;
+}
+.site_header i{
+    color: white;
+}
+.site_header ul{
+	float: right;
+	padding: 9px 15px 0px 0px;
+}
+.site_header ul li{
+	list-style-type: none;
+}
+.site_header ul li a{
+	color: white;
+    font-size: 18px;
+    text-decoration:none;
+}
+.site_header ul li a:hover{
+    color: #fff;
+    background-color: transparent !important;
+}
+
+.site_banner{
+	
+	background-image: url(../images/cu.jpg);
+	background-position: center ;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	position: relative;
+}
+.site_banner h1{
+	margin: -6px 0px 0 0;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 50px 0px;
+    font-family: 'Abril Fatface', cursive;
+    letter-spacing: 8px;
+}
+.detail_sec{
+	width: 100%;
+    box-shadow: 1px 1px 4px #000;
+    margin-top: 20px;
+}
+.detail_sec h3{
+	color: #F8C47150;
+}
+.detail_sec p{
+	color: #000;
+}
+.detail_sec i{
+	text-align: center;
+    display: inherit;
+    padding: 18px 0px;
+    font-size: 50px;
+    background-color: #333;
+    color: #fff;
+}
+/*-----------------------------
+	END USER HOME PAGE CSS
+------------------------------*/
+/*-----------------------------
+	SIDE BAR  CSS
+------------------------------*/
+.user_sidebar{
+	 border-right: 2px solid #F8C47150;
+     padding: 20px 0px;
+}
+.user_sidebar ul li{
+	 list-style-type: none;
+	 padding: 15px 0px;
+}
+.user_sidebar ul li a{
+	 text-decoration:none;
+	 color: #000;
+	 font-size: 20px;
+}
+.navbar-nav ul li a{
+    color: white;
+}
+
+.user_sidebar ul li a i{
+	margin-right:10px;
+
+}
+.user_sidebar ul li a:hover{
+     color: red;
+     transition: 0.4s;
+}
+.user_sidebar ul li a i{
+    color: red;
+}
+.user_sidebar ul ul li{
+    padding: 12px 0px 0px 0px;
+}
+.navbar-nav{
+    float: none;
+    color: white;
+}
+.sub_menu_items, .sub_menu_items1{
+    display: none;
+}
+/*-----------------------------
+	END SIDE BAR  CSS
+------------------------------*/
+/*------------------------------------------
+    all user profile PAGE CSS
+-------------------------------------------*/
+.user_search{
+        margin: 28px 10px 10px 0px;
+}
+.user_search input[type=search]{
+        border: 1px solid #99000050;
+        height: 40px;
+        padding-left: 10px;
+        font-size: 18px;
+}
+
+.user_search button{
+        height: 40px;
+        border: 1px solid #F8C471;
+}
+.user_search button:hover{
+       background-color: #F8C47150;
+       color: #fff;
+       transition: 0.5s;
+}
+.user_search button:focus{
+       background-color: #F8C471 !important;
+       color: #fff !important;  
+}
+.user_search button:active{
+       background-color: #F8C471 !important;
+       color: #fff !important;  
+}
+.my_proflie_image img{
+    margin-top: 20px;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+/*------------------------------------------
+    END  all user profile PAGE CSS
+-------------------------------------------*/
+/*------------------------------------------
+	user all PRODUCT PAGE CSS
+-------------------------------------------*/
+.products_search{
+        margin: 28px 10px 10px 0px;
+}
+.products_search input[type=search]{
+	    border: 1px solid blue;
+        height: 40px;
+        padding-left: 10px;
+        font-size: 18px;
+}
+
+.products_search button{
+	    height: 40px;
+        border: 1px solid #F8C47150;
+}
+.products_search button:hover{
+	   background-color: #F8C47150;
+	   color: #fff;
+	   transition: 0.5s;
+}
+.products_search button:focus{
+	   background-color: #F8C47150 !important;
+	   color: #fff !important;  
+}
+.products_search button:active{
+	   background-color: #F8C47150 !important;
+	   color: #fff !important;  
+}
+/*-----------------------------
+	End PRODUCT PAGE CSS
+------------------------------*/
+/*-----------------------------
+	Client PRODUCT PAGE CSS
+------------------------------*/
+.client_products{
+	margin: 28px 0px 10px 15px;
+}
+.client_products input[type=text]{
+	border: 1px solid #F8C47150;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 18px;
+}
+.client_products input[type=number]{
+	margin-top: 10px;
+	border: 1px solid #F8C47150;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 18px;
+}
+
+.client_products input[type=submit]{
+	margin-top: 10px; 
+	height: 40px;
+    border: 1px solid #F8C47150;
+    font-weight: bold;
+    padding-top: 10px;
+    width: 25%;
+}
+.client_products input[type=submit]:hover{
+	   background-color: #F8C47150;
+	   color: #fff;
+	   transition: 0.5s;
+}
+.client_products_total input[type=submit]{
+	    margin-top: 10px;
+        border: 1px solid #F8C47150;
+        font-weight: bold;
+        width: 25%;
+        height: 44px;
+        font-size: 22px;
+        margin-bottom: 50px;
+}
+.client_products_total input[type=submit]:hover{
+       background-color: #F8C47150;
+       color: #fff;
+       transition: 0.5s;
+}
+
+/*--------------------------------
+	 all userprofile table  CSS
+---------------------------------*/
+.table thead{
+	border-bottom: 3px solid red;
+	border-top: 3px solid red;
+}
+/*-----------------------------
+	Contact Admin PAGE CSS
+------------------------------*/
+.Contact_Admin{
+	margin: 30px 0px 10px 30px;	
+}
+.Contact_Admin input[type=text]{
+    width: 100%;
+    border: 1px solid blue;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 18px;
+    outline: none;
+}
+.Contact_Admin input[type=text]:focus{
+  	box-shadow: 3px 2px 7px cadetblue;
+    transition: 0.4s
+}
+.Contact_Admin input[type=email]{
+    width: 100%;
+    border: 1px solid blue;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 18px;
+    outline: none;
+}
+.Contact_Admin input[type=email]:focus{
+    box-shadow: 3px 2px 7px cadetblue;
+    transition: 0.4s
+}
+.Contact_Admin [type=submit]{
+    margin-top: 15px;
+    width: 20%;
+    border: 1px solid blue;
+    border-radius: 6px;
+    height: 40px;
+    font-size: 18px;
+    outline: none;
+    background-color:white;
+    color: blue;
+}
+.Contact_Admin input[type=submit]:hover{
+    color: white;
+    background-color: blue;
+    transition: 0.4s
+}
+.Contact_Admin label{
+	margin-top: 25px;
+	font-size: 17px;
+	color: #9d9d9d;
+}
+.Contact_Admin textarea{
+	 width: 100%;
+    border: 1px solid blue;
+    padding-left: 10px;
+    font-size: 18px;
+    outline: none;
+}
+.Contact_Admin textarea:focus{
+	box-shadow: 3px 3px 7px cadetblue;
+    transition: 0.4s
+}
+/*-----------------------------
+	End Contact Admin PAGE CSS
+------------------------------*/
+/*-----------------------------
+   Admin user signup PAGE CSS
+------------------------------*/
+.admin_user_signup{
+	margin: 30px 0px 10px 0px;
+}
+.admin_user_signup label{
+	 color: #9d9d9d;
+	 margin-top: 15px;
+    font-size: 15px;
+}
+.admin_user_signup [type=number]{
+    
+    width: 100%;
+    border: 1px solid blue;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 18px;
+    outline: none;
+}
+.admin_user_signup input[type=number]:focus{
+    box-shadow: 3px 2px 7px cadetblue;
+    transition: 0.4s
+}
+.admin_user_signup [type=file]{
+    padding-top: 5px;
+    width: 100%;
+    border: 1px solid blue;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 18px;
+    outline: none;
+}
+.admin_user_signup input[type=file]:focus{
+    box-shadow: 3px 2px 7px cadetblue;
+    transition: 0.4s
+}
+.admin_user_signup [type=text]{
+	
+    width: 100%;
+    border: 1px solid blue;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 18px;
+    outline: none;
+}
+.admin_user_signup input[type=text]:focus{
+  	box-shadow: 3px 2px 7px cadetblue;
+    transition: 0.4s
+}
+
+.admin_user_signup [type=email]{
+	
+    width: 100%;
+    border: 1px solid blue;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 18px;
+    outline: none;
+}
+.admin_user_signup input[type=email]:focus{
+  	box-shadow: 3px 2px 7px cadetblue;
+    transition: 0.4s
+}
+.admin_user_signup select{
+	border: 1px solid blue;
+	margin-bottom: 0px !important; 
+}
+.form-group{
+	margin-bottom: 0px !important;
+}
+.admin_user_signup input[type=date]{
+	width: 100%;
+	border: 1px solid blue;
+    height: 40px;
+    font-size: 18px;
+    outline: none;
+}
+
+.admin_user_signup [type=password]{
+	
+    width: 100%;
+    border: 1px solid blue;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 18px;
+    outline: none;
+}
+.admin_user_signup input[type=password]:focus{
+  	box-shadow: 3px 2px 7px cadetblue;
+    transition: 0.4s
+}
+.admin_user_signup textarea{
+	width: 100%;
+	border: 1px solid blue;
+	outline: none;
+}
+.admin_user_signup textarea:focus{
+  	box-shadow: 3px 2px 7px cadetblue;
+    transition: 0.4s
+}
+.admin_user_signup [type=submit]{
+	margin-top: 15px;
+    width: 20%;
+    border: 1px solid blue;
+    border-radius: 6px;
+    height: 40px;
+    font-size: 18px;
+    outline: none;
+    background-color:white;
+    color: blue;
+}
+.admin_user_signup input[type=submit]:hover{
+  	color: white;
+  	background-color: blue;
+    transition: 0.4s
+}
+/*------------------------------------
+  --End-- Admin user signup PAGE CSS
+-------------------------------------*/
+/*--------------------------------
+  add new produtcs PAGE CSS
+--------------------------------*/
+.add_new_products{
+	margin: 30px 0px 10px 0px;
+}
+.add_new_products label{
+	 color: #9d9d9d;
+	 margin-top: 15px;
+    font-size: 15px;
+}
+.add_new_products [type=text]{
+	
+    width: 100%;
+    border: 1px solid blue;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 18px;
+    outline: none;
+}
+.add_new_products input[type=text]:focus{
+  	box-shadow: 3px 2px 7px cadetblue;
+    transition: 0.4s
+}
+.add_new_products [type=number]{
+	
+    width: 100%;
+    border: 1px solid blue;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 18px;
+    outline: none;
+}
+.add_new_products input[type=number]:focus{
+  	box-shadow: 3px 2px 7px cadetblue;
+    transition: 0.4s
+}
+.add_new_products [type=submit]{
+	margin-top: 15px;
+    width: 20%;
+    border: 1px solid blue;
+    border-radius: 6px;
+    height: 40px;
+    font-size: 18px;
+    outline: none;
+    background-color:white;
+    color: blue;
+}
+.add_new_products input[type=submit]:hover{
+  	color: white;
+  	background-color: blue;
+    transition: 0.4s
+}
+/*----------------------------------
+  --END-- add new produtcs PAGE CSS
+-----------------------------------*/
